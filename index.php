@@ -1,15 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>User Account</title>
-    <link rel="stylesheet" href="./css/insert.css">
-</head>
-<body>
-
-        <h1>Insert User Account</h1>
-        <table>
+<?php
+include ('header.php');
+?>    
+ <h1 id="main-title">User Details</h1>
+        <table class="table table-bordered table:hover table-striped">
             <thead>
             <th>ID</th>
             <th>First Name</th>
@@ -17,8 +10,21 @@
             <th>Age</th>
 
 </thead>
+<tbody>
+    <tr>
+        <td>1</td>
+        <td>John</td>           
+        <td>Doe</td>
+        <td>25</td> 
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>John</td>           
+        <td>Doe</td>
+        <td>25</td> 
+    </tr>
+    </tbody>
         </table>
-
-    
-</body>
-</html>
+        <?php
+include ('footer.php');
+?> 
