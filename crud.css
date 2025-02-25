@@ -6,3 +6,13 @@
     letter-spacing: 2px;
     font-weight: 500;
 }
+
+.box1 h3{
+    float: left;
+}
+
+.box1 button{
+    float: right;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
